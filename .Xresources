@@ -1,0 +1,49 @@
+!!$HOME/.Xresources
+URxvt.preeditType:Root
+!!调整此处设置输入法
+URxvt.inputMethod:fcitx
+!!颜色设置
+
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+urxvt.foreground: 	#E8DFD6
+urxvt.background: 	#1d1d1d
+urxvt.cursorColor:  #2E3340
+urxvt.color0:       #032C36
+urxvt.color8:       #065F73
+urxvt.color1:       #C2454E
+urxvt.color9:       #EF5847
+urxvt.color2:       #7CBF9E
+urxvt.color10:      #A2D9B1
+urxvt.color3:       #8A7A63
+urxvt.color11:      #BEB090
+urxvt.color4:       #2E3340
+urxvt.color12:      #61778D
+urxvt.color5:       #FF5879
+urxvt.color13:      #FF99A1
+urxvt.color6:       #44B5B1
+urxvt.color14:      #9ED9D8
+urxvt.color7:       #F2F1B9
+urxvt.color15:      #F6F6C9
+!!URL操作
+URxvt.urlLauncher:chromium
+URxvt.matcher.button:1
+Urxvt.perl-ext-common:matcher
+!!滚动条设置
+URxvt.scrollBar:False
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
+!!滚屏设置
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput:False
+URxvt.scrollWithBuffer:True
+URxvt.scrollTtyKeypress:True
+!!光标闪烁
+URxvt.cursorBlink:True
+URxvt.saveLines:3000
+!!边框
+URxvt.borderLess:False
+!!字体设置
+Xft.dpi:96
+URxvt.font: xft:Ubuntu Mono:pixelsize=20
+
