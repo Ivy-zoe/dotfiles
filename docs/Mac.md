@@ -102,7 +102,9 @@ OmniGraffle是一个万金油无论是 原型图、泳道图还是时序图都�
 
 ### 9.2 文档演示
 
-因为我的文档大多数都是LaTeX输出的PDF所以演示软件首选当然是Présentation
+因为我的文档大多数都是LaTeX输出的PDF所以演示软件首选当然是
+
+- [Présentation](http://iihm.imag.fr/blanch/software/osx-presentation/)
 
 ### 9.3 桌面公式捕捉
 
