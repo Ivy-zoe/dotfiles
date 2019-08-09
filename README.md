@@ -2,9 +2,9 @@
 
 ## 系统配置
 
-~~ ThinkPad W520 移动工作站 ~~
+~~ThinkPad W520 移动工作站~~
 
-~~ Macbook Air 2017 13inch ~~
+~~Macbook Air 2017 13inch~~
 
 ThinkPad X220
 
