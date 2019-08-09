@@ -2,25 +2,29 @@
 
 ## 系统配置
 
-~~ThinkPad W520 移动工作站~~
-Macbook Air 2017 13inch
+~~ ThinkPad W520 移动工作站 ~~
+
+~~ Macbook Air 2017 13inch ~~
+
+ThinkPad X220
 
 ## 软件系统
 
-OS: Gentoo Linux
-
-WM: i3-gaps
-
-input: fcitx
-
-Kernel: 5.1
-
-## 配置
+- Archlinux
+- WM(i3)
+- input(fcitx)
+- Terminal(ST)
+- browser(chromium)
+- bar(i3bar)
 
 
-[ThinkPad-W520](./docs/install.md)
-
-[Macbook-Air](./docs/README.md)
+## 配置文档
 
 
-[Mac OS 软件](./docs/Mac.md)
+- [ThinkPad-W520](./docs/install.md)
+
+- [Macbook-Air](./docs/README.md)
+
+- [Mac OS 软件](./docs/Mac.md)
+
+- [ThinkPad X220](https://github.com/slmoby/ThinkPadX220)
