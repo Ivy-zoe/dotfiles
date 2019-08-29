@@ -10,13 +10,27 @@ ThinkPad X220
 
 ## 软件系统
 
-- Archlinux
-- WM(i3)
+- Gentoo
+- WM(dwm)
 - input(fcitx)
 - Terminal(ST)
-- browser(chromium)
-- bar(i3bar)
+- browser(google-chrome)
+- bar(xsetroot)
 
+## 系统截图
+
+> INFO
+
+![](./img/info.png)
+
+
+> LaTeX
+
+![](./img/latex.png)
+
+> Dict
+
+![](./img/dict.png)
 
 ## 配置文档
 
@@ -27,4 +41,4 @@ ThinkPad X220
 
 - [Mac OS 软件](./docs/Mac.md)
 
-- [ThinkPad X220](https://github.com/slmoby/ThinkPadX220)
+- (ThinkPad X220) 正在写中

@@ -1,0 +1,75 @@
+x11-libs/cairo X
+net-wireless/wpa_supplicant dbus
+app-text/xmlto text
+media-libs/gegl cairo
+app-text/poppler cairo
+x11-libs/libva X
+dev-libs/libpcre2 pcre16
+dev-qt/qtgui dbus
+x11-libs/libxcb xkb
+x11-libs/libxkbcommon X
+dev-libs/libpcre2 pcre32
+media-video/ffmpeg x264
+x11-libs/pango X
+sys-libs/zlib minizip
+net-libs/nodejs inspector
+dev-libs/glib dbus
+sys-auth/consolekit policykit
+dev-lang/python sqlite
+media-gfx/imagemagick png jpeg X svg jpeg2k
+app-text/poppler qt5
+dev-python/PyQt5 webkit printsupport network widgets svg gui
+dev-qt/qtsingleapplication X
+media-sound/ncmpcpp icu clock visualizer
+app-i18n/fcitx X autostart cairo enchant gtk3 introspection nls pango table xml  gtk2 static-libs
+media-sound/mpd alsa bzip2 cue curl dbus eventfd ffmpeg fifo icu id3tag inotify ipv6 mad network pulseaudio unicode zlib audiofile 
+sys-apps/dbus X  user-session
+app-text/ghostscript-gpl cups
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/lzo static-libs
+media-libs/imlib2 X bzip2 nls shm zlib gif jpeg png
+sys-auth/consolekit pm-utils
+x11-misc/xwallpaper seccomp jpeg png
+# required by net-im/telegram-desktop-1.8.1::mva
+# required by telegram-desktop (argument)
+>=dev-qt/qtgui-5.12.3-r1 jpeg
+# required by net-im/telegram-desktop-1.8.1::mva
+# required by telegram-desktop (argument)
+>=media-libs/rlottie-0_pre20190818 telegram-patches
+
+net-misc/remmina crypt -gnome-keyring nls rdp spice ssh  vnc
+# required by app-emulation/virtualbox-5.2.26-r1::gentoo[-headless]
+# required by app-emulation/virtualbox-extpack-oracle-5.2.26.128414::gentoo
+# required by app-emulation/virtualbox-extpack-oracle (argument)
+>=media-libs/libsdl-1.2.15-r9 X
+# required by app-emulation/virt-manager-2.2.1::gentoo[gtk]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.35 usbredir
+# required by kde-frameworks/kglobalaccel-5.60.0::gentoo
+# required by kde-frameworks/kxmlgui-5.60.0::gentoo
+# required by media-gfx/krita-4.1.8-r1::gentoo
+# required by krita (argument)
+>=kde-frameworks/kwindowsystem-5.60.0 X
+
+media-video/ffmpeg  bzip2 chromium encode gpl hardcoded-tables iconv network postproc pulseaudio threads vaapi x264 zlib X alsa cpudetection fontconfig jpeg2k mp3 openal opencl opengl openh264 oss svg v4l x265 
+
+sys-kernel/gentoo-sources experimental symlink
+app-portage/layman sync-plugin-portage
+
+app-editors/emacs acl gtk inotify ssl threads xpm zlib X  dbus gif gtk2 imagemagick jpeg  png svg 
+# required by app-editors/emacs-26.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-emacs/emacs-common-gentoo-1.6-r1 X
+# required by net-misc/nextcloud-client-2.5.2::gentoo
+# required by nextcloud-client (argument)
+>=dev-qt/qtwebengine-5.12.3 widgets
+# required by dev-qt/qtwebengine-5.12.3::gentoo
+# required by net-misc/nextcloud-client-2.5.2::gentoo
+# required by nextcloud-client (argument)
+>=dev-qt/qtwebchannel-5.12.3 qml
+# required by dev-qt/qtwebengine-5.12.3::gentoo
+# required by net-misc/nextcloud-client-2.5.2::gentoo
+# required by nextcloud-client (argument)
+>=media-libs/libvpx-1.5.0 svc
