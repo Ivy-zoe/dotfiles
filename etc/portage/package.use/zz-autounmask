@@ -52,8 +52,7 @@ net-misc/remmina crypt -gnome-keyring nls rdp spice ssh  vnc
 # required by krita (argument)
 >=kde-frameworks/kwindowsystem-5.60.0 X
 
-media-video/ffmpeg  bzip2 chromium encode gpl hardcoded-tables iconv network postproc pulseaudio threads vaapi x264 zlib X alsa cpudetection fontconfig jpeg2k mp3 openal opencl opengl openh264 oss svg v4l x265 
-
+media-video/ffmpeg  bzip2 chromium encode gpl hardcoded-tables iconv network postproc pulseaudio threads vaapi x264 zlib X alsa cpudetection fontconfig jpeg2k mp3 openal opencl opengl openh264 oss svg v4l x265 libv4l ladspa libaom libass libcaca libdrm libilbc librtmp libsoxr xcb
 sys-kernel/gentoo-sources experimental symlink
 app-portage/layman sync-plugin-portage
 
