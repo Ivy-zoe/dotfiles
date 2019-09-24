@@ -1,4 +1,5 @@
-x11-libs/cairo X
+sys-boot/grub fonts nls -themes libzfs
+x11-libs/cairo X xcb
 net-wireless/wpa_supplicant dbus
 app-text/xmlto text
 media-libs/gegl cairo
@@ -9,7 +10,6 @@ dev-qt/qtgui dbus
 x11-libs/libxcb xkb
 x11-libs/libxkbcommon X
 dev-libs/libpcre2 pcre32
-media-video/ffmpeg x264
 x11-libs/pango X
 sys-libs/zlib minizip
 net-libs/nodejs inspector
@@ -31,44 +31,45 @@ dev-libs/lzo static-libs
 media-libs/imlib2 X bzip2 nls shm zlib gif jpeg png
 sys-auth/consolekit pm-utils
 x11-misc/xwallpaper seccomp jpeg png
-# required by net-im/telegram-desktop-1.8.1::mva
-# required by telegram-desktop (argument)
->=dev-qt/qtgui-5.12.3-r1 jpeg
-# required by net-im/telegram-desktop-1.8.1::mva
-# required by telegram-desktop (argument)
->=media-libs/rlottie-0_pre20190818 telegram-patches
-
+# Telegram
+dev-qt/qtgui jpeg
+media-libs/rlottie telegram-patches
+# Remmina
 net-misc/remmina crypt -gnome-keyring nls rdp spice ssh  vnc
-# required by app-emulation/virtualbox-5.2.26-r1::gentoo[-headless]
-# required by app-emulation/virtualbox-extpack-oracle-5.2.26.128414::gentoo
-# required by app-emulation/virtualbox-extpack-oracle (argument)
->=media-libs/libsdl-1.2.15-r9 X
-# required by app-emulation/virt-manager-2.2.1::gentoo[gtk]
-# required by virt-manager (argument)
->=net-misc/spice-gtk-0.35 usbredir
-# required by kde-frameworks/kglobalaccel-5.60.0::gentoo
-# required by kde-frameworks/kxmlgui-5.60.0::gentoo
-# required by media-gfx/krita-4.1.8-r1::gentoo
-# required by krita (argument)
->=kde-frameworks/kwindowsystem-5.60.0 X
-
-media-video/ffmpeg  bzip2 chromium encode gpl hardcoded-tables iconv network postproc pulseaudio threads vaapi x264 zlib X alsa cpudetection fontconfig jpeg2k mp3 openal opencl opengl openh264 oss svg v4l x265 libv4l ladspa libaom libass libcaca libdrm libilbc librtmp libsoxr xcb
+# krita
+kde-frameworks/kwindowsystem X
+# ffmpeg
+media-video/ffmpeg bzip2 encode gpl hardcoded-tables iconv network postproc pulseaudio threads vaapi x264 zlib X alsa cpudetection fontconfig jpeg2k mp3 openal opencl opengl openh264 oss svg v4l x265 libv4l ladspa libaom libass libcaca libdrm libilbc librtmp libsoxr xcb sdl 
 sys-kernel/gentoo-sources experimental symlink
 app-portage/layman sync-plugin-portage
+# Nextcloud-clinet
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+media-libs/libvpx svc
+# Sxiv
+media-gfx/sxiv jpeg png exif gif
+# KVM
+net-misc/spice-gtk gtk3 python usbredir
+net-libs/gtk-vnc python
+app-emulation/libvirt-glib python
+app-emulation/libvirt virt-network caps dbus libvirtd macvtap nls qemu udev vepa wireshark-plugins
+net-firewall/iptables ipv6
+net-dns/dnsmasq script
+app-emulation/qemu spice usbredir
+x11-drivers/xf86-video-qxl xspice
+# SoX
+media-sound/sox openmp pulseaudio alsa flac oss png 
+# MIND
+x11-misc/vym dbus
 
-app-editors/emacs acl gtk inotify ssl threads xpm zlib X  dbus gif gtk2 imagemagick jpeg  png svg 
-# required by app-editors/emacs-26.2::gentoo
-# required by @selected
-# required by @world (argument)
->=app-emacs/emacs-common-gentoo-1.6-r1 X
-# required by net-misc/nextcloud-client-2.5.2::gentoo
-# required by nextcloud-client (argument)
->=dev-qt/qtwebengine-5.12.3 widgets
-# required by dev-qt/qtwebengine-5.12.3::gentoo
-# required by net-misc/nextcloud-client-2.5.2::gentoo
-# required by nextcloud-client (argument)
->=dev-qt/qtwebchannel-5.12.3 qml
-# required by dev-qt/qtwebengine-5.12.3::gentoo
-# required by net-misc/nextcloud-client-2.5.2::gentoo
-# required by nextcloud-client (argument)
->=media-libs/libvpx-1.5.0 svc
+# office
+app-office/libreoffice java
+
+# Scribus
+app-office/scribus boost minimal pdf examples graphicsmagick scripts templates
+dev-libs/xmlsec nss
+
+#R
+dev-lang/R  icu nls openmp readline X cairo doc java lapack minimal perl
+
+media-libs/opencv eigen gtk openmp python vaapi ffmpeg jpeg opengl png webp

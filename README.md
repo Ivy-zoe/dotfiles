@@ -16,6 +16,8 @@ ThinkPad X220
 - Terminal(ST)
 - browser(google-chrome)
 - bar(xsetroot)
+- FS(ZFS)
+
 
 ## 系统截图
 
