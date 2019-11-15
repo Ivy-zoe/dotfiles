@@ -1,4 +1,3 @@
-sys-boot/grub fonts nls -themes libzfs
 x11-libs/cairo X xcb
 net-wireless/wpa_supplicant dbus
 app-text/xmlto text
@@ -36,10 +35,6 @@ dev-qt/qtgui jpeg
 media-libs/rlottie telegram-patches
 # Remmina
 net-misc/remmina crypt -gnome-keyring nls rdp spice ssh  vnc
-# krita
-kde-frameworks/kwindowsystem X
-# ffmpeg
-media-video/ffmpeg bzip2 encode gpl hardcoded-tables iconv network postproc pulseaudio threads vaapi x264 zlib X alsa cpudetection fontconfig jpeg2k mp3 openal opencl opengl openh264 oss svg v4l x265 libv4l ladspa libaom libass libcaca libdrm libilbc librtmp libsoxr xcb sdl 
 sys-kernel/gentoo-sources experimental symlink
 app-portage/layman sync-plugin-portage
 # Nextcloud-clinet
@@ -57,19 +52,3 @@ net-firewall/iptables ipv6
 net-dns/dnsmasq script
 app-emulation/qemu spice usbredir
 x11-drivers/xf86-video-qxl xspice
-# SoX
-media-sound/sox openmp pulseaudio alsa flac oss png 
-# MIND
-x11-misc/vym dbus
-
-# office
-app-office/libreoffice java
-
-# Scribus
-app-office/scribus boost minimal pdf examples graphicsmagick scripts templates
-dev-libs/xmlsec nss
-
-#R
-dev-lang/R  icu nls openmp readline X cairo doc java lapack minimal perl
-
-media-libs/opencv eigen gtk openmp python vaapi ffmpeg jpeg opengl png webp

@@ -1,0 +1,11 @@
+* My Dotfiles repository
+** Macbook 13
+| CPU      | Mem | HD            | OS |
+| i5-5350U | 8G  | 512G nvme ssd | Gentoo |
+** ThinkPad X220
+| CPU      | Mem | HD            | OS |
+| i5-2450M | 8G  | 240G SSD *2 | Gentoo |
+** ThinkStation S20
+| CPU   | Mem | HD                  | OS     |
+| X5670 | 24G | 400G Intel pcie ssd | Gentoo |
+
