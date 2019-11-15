@@ -1,0 +1,7 @@
+* Macbook Dotfiles
+
+
+** summary
+| OS     | INIT    |
+| Gentoo | systemd |
+
