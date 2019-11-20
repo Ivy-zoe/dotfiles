@@ -1,0 +1,6 @@
+app-emulation/vmware-workstation cups modules -macos-guests -vmware-tools-darwin vmware-tools-linux vmware-tools-windows
+net-dns/dnsmasq script
+net-libs/zeromq drafts
+dev-python/PyQt5 webchannel
+www-client/w3m imlib
+

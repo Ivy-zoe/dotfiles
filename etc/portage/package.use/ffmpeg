@@ -1,0 +1,1 @@
+media-video/ffmpeg alsa bzip2 encode gpl hardcoded-tables iconv network postproc threads x264 zlib X -cpudetection doc openh264 pulseaudio x265 xcb

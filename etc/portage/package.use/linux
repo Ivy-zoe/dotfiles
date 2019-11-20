@@ -1,0 +1,9 @@
+sys-apps/util-linux static-libs
+
+
+sys-firmware/intel-microcode split-ucode initramfs
+
+
+# emacs
+app-editors/emacs X xft
+app-emacs/emacs-common-gentoo X

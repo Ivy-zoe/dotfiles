@@ -1,0 +1,25 @@
+# required by zathura-djvu (argument)
+x11-libs/cairo X
+media-libs/imlib2 png jpeg
+# required by networkmanager (argument)
+net-wireless/wpa_supplicant dbus
+# required by R (argument)
+sys-libs/zlib minizip
+# required by virt-manager (argument)
+dev-libs/libxml2 python
+dev-lang/python sqlite
+# required by chromium (argument)
+net-libs/nodejs inspector
+app-text/xmlto text
+# required by firefox (argument)
+media-libs/libpng apng
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete
+media-libs/gegl cairo
+app-text/poppler cairo
+kde-frameworks/kwindowsystem X
+sys-auth/polkit introspection nls pam consolekit
+sys-auth/consolekit policykit
+dev-libs/glib dbus
+sys-apps/dbus X user-session
+media-sound/pulseaudio alsa dbus
