@@ -1,0 +1,10 @@
+net-wireless/wpa_supplicant  dbus
+sys-auth/consolekit policykit
+dev-libs/glib dbus
+
+
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/lzo static-libs
+virtual/libusb udev
+dev-libs/libusb udev

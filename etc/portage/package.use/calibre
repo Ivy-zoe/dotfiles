@@ -1,0 +1,11 @@
+# required by calibre (argument)
+dev-lang/python sqlite
+app-text/poppler qt5
+dev-python/PyQt5 network svg printsupport widgets gui webchannel
+dev-qt/qtwebchannel qml
+media-libs/libvpx svc
+dev-libs/libpcre2 pcre16
+dev-qt/qtwebengine widgets
+
+dev-libs/boost icu
+

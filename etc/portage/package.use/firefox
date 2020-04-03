@@ -1,0 +1,3 @@
+media-libs/libpng apng
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete

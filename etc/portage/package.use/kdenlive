@@ -1,0 +1,3 @@
+media-libs/mlt kdenlive frei0r ffmpeg melt sdl qt5 xml
+media-libs/libsdl2 opengl X
+virtual/ffmpeg sdl X

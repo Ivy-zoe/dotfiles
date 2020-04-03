@@ -1,0 +1,4 @@
+>=x11-libs/libxkbcommon-0.10.0 X
+# required by x11-wm/i3-gaps-4.17.1-r1::gentoo
+# required by i3-gaps (argument)
+>=x11-libs/pango-1.42.4-r2 X
