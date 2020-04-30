@@ -1,0 +1,10 @@
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+dev-libs/libxml2 icu
+media-libs/libvpx svc
+sys-libs/zlib minizip
+media-libs/libglvnd X
+x11-libs/libxkbcommon X
+dev-libs/libpcre2 pcre16
+
+net-misc/nextcloud-client gnome-keyring

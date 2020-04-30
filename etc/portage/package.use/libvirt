@@ -1,2 +1,2 @@
-app-emulation/libvirt virt-network 
+app-emulation/libvirt caps dbus libvirtd lvm macvtap nls qemu udev vepa virt-network audit lxc nfs numa wireshark-plugins -ipv6
 net-dns/dnsmasq script

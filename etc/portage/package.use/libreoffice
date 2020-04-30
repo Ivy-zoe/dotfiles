@@ -1,4 +1,4 @@
 app-office/libreoffice dbus -bluetooth
 dev-libs/xmlsec nss
 app-text/ghostscript-gpl cups
-
+dev-db/postgresql kerberos
